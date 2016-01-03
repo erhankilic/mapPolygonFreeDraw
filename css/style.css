@@ -231,5 +231,5 @@ footer {
 .leaflet-zoom-box,
 .leaflet-image-layer,
 .leaflet-layer {
-    z-index: 9999;
+    z-index: 100;
 }

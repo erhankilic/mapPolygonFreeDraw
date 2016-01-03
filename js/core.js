@@ -148,7 +148,7 @@ function pnpoly(xp, yp, x, y) {
 
 // Clear Draw with redirecting to main page
 $('#clear_draw').on('click', function () {
-    window.location = "/";
+    window.location = "http://erhankilic.github.io/mapPolygonFreeDraw/";
 });
 // Set Create Draw Mode with button click
 $('#create_draw').on('click', function () {
