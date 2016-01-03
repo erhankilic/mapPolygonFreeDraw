@@ -1,0 +1,22 @@
+{
+  "name": "mapPlygon",
+  "description": "",
+  "main": "",
+  "moduleType": [
+    "es6"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "node_modules",
+    "bower_components",
+    "vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "leaflet.freedraw": "~1.2.0",
+    "bootstrap": "~3.3.6",
+    "mapbox.js": "~2.2.3"
+  }
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Map Demo</title>
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+    <link rel="Stylesheet" type="text/css" href="vendor/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="Stylesheet" type="text/css" href="vendor/bootstrap/dist/css/bootstrap-theme.min.css"/>
+    <link rel="Stylesheet" type="text/css" href="vendor/leaflet/dist/leaflet.css"/>
+    <link href='vendor/mapbox.js/mapbox.css' rel='stylesheet' />
+    <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.css' rel='stylesheet' />
+    <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.Default.css' rel='stylesheet' />
+    <link rel="Stylesheet" type="text/css" href="css/style.css"/>
+</head>
+<body>
+<section class="map" data-mode="mode">
+
+    <section class="overlay"></section>
+
+    <section class="information">
+        <header class="text-center">
+            <h1>This is a demo of usage both mapbox.js and leaflet.freedraw together.</h1>
+        </header>
+        <div id="content">
+            <div class="form-group">
+                <button class="btn btn-sm btn-success" id="create_draw">Create Draw</button>
+                <button class="btn btn-sm btn-warning" id="clear_draw">Clear Draw</button>
+            </div>
+            <label>If you click a marker, It's informations will be shown here.</label>
+            <div id="markerInformations"></div>
+        </div>
+        <footer class="text-center">
+            <p>Copyright &copy; 2015 | Foliotek</p>
+        </footer>
+
+    </section>
+
+</section>
+<script src="vendor/jquery/dist/jquery.min.js"></script>
+<script src="vendor/bootstrap/dist/js/bootstrap.min.js">
+</script><script src='vendor/mapbox.js/mapbox.js'></script>
+<script type="text/javascript" src="vendor/d3/d3.js"></script>
+<script type="text/javascript" src="vendor/evispa-timo-jsclipper/clipper_unminified.js"></script>
+<script type="text/javascript" src="vendor/graham_scan/graham_scan.min.js"></script>
+<script type="text/javascript" src="vendor/concavehull/dist/concavehull.js"></script>
+<script type="text/javascript" src="vendor/leaflet.freedraw/components/FreeDraw.js"></script>
+<script type="text/javascript" src="vendor/leaflet.freedraw/components/Options.js"></script>
+<script type="text/javascript" src="vendor/leaflet.freedraw/components/Utilities.js"></script>
+<script type="text/javascript" src="vendor/leaflet.freedraw/components/Memory.js"></script>
+<script type="text/javascript" src="vendor/leaflet.freedraw/components/Hull.js"></script>
+<script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/leaflet.markercluster.js'></script>
+<script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-pip/v0.0.2/leaflet-pip.js'></script>
+<script src="js/polyline.js" type="text/javascript"></script>
+<script src="js/core.js"></script>
+</body>
+</html>
