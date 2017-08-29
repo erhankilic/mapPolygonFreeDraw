@@ -2,7 +2,9 @@
 -----------------------------
 
 This is a map polygon with free draw option. I used mapbox.js for map and leaflet.freedraw.js for free draw...
-If you want, you can edit it to using leaflet.js. 
+If you want, you can edit it to using leaflet.js.
+
+**Live Preview on [WebPage](http://erhankilic.github.io/mapPolygonFreeDraw/)**
 
 # Free Draw Option
 ---------------------
